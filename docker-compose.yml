@@ -10,7 +10,8 @@ services:
       WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: 123456
-
+    volumes:
+      - ./wordpress:/var/www/html
   db:
     image: mysql
     container_name: mysql
