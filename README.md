@@ -4,5 +4,5 @@ A Docker file for running WordPress locally.
 ## How to run it
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
